@@ -5,3 +5,4 @@
 manage.py
 package.json
 package-lock.json
+*.txt
