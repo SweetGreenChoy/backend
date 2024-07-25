@@ -6,4 +6,4 @@ class SeatSerializer(serializers.ModelSerializer):
     class Meta:
 
         model = Seat
-        fields = '__all__'
+        fields = ['seat_number', 'customer_name']

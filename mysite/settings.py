@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ticket_db',
+        'USER': 'postgres',
+        'PASSWORD': "ansim123",
+        'HOST' : 'ticketrds.cluster-cre0scwaa7zi.ap-northeast-2.rds.amazonaws.com',
+        'PORT' : '5432',
     }
 }
 
