@@ -1,0 +1,8 @@
+/myapp
+/mysite
+/node_modules
+/venv
+manage.py
+package.json
+package-lock.json
+*.txt
